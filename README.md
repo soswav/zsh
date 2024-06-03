@@ -49,10 +49,10 @@ i'm currently trying to implement booleans in my config! i'm also attempting to 
 here's what **some** of them look like:
 
 ![](./assets/rainbowBash.png "rainbowBash")
-![](./assets/elvishDefault "elvishDefault")
-![](./assets/weirdDefault "weirdDefault")
-![](./assets/guideToZSH "guideToZSH")
-![](./assets/nixTheme "nixTheme")
+![](./assets/elvishDefault.png "elvishDefault")
+![](./assets/weirdDefault.png "weirdDefault")
+![](./assets/guideToZSH.png "guideToZSH")
+![](./assets/nixTheme.png "nixTheme")
 
 >[!NOTE]
 >ignore my screenshot skills
