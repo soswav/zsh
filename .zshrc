@@ -8,8 +8,8 @@
   ##         options!"
 
 ## tools
-fetchTool="fastfetch"        ## to be used inside aliases.zsh and boot.zsh (string)
-  fetchAtBoot="false"        ## shows specified fetch tool at startup (boolean)
+fetchTool="nitch"            ## to be used inside aliases.zsh and boot.zsh (string)
+  fetchAtBoot="true"         ## shows specified fetch tool at startup (boolean)
 musicTool="termusic"         ## music tool to be used inside aliases.zsh (string)
 dirTool="eza"                ## to be used inside aliases.zsh, configure aliases.zsh since it already comes with some options, eza is recommended! (string)
 fileManager="nimmm"          ## terminal filemanager to use (string)
@@ -21,13 +21,23 @@ userTheme="weirdDefault"     ## check usrthms.zsh for the previews (and names)
 H="$HOME"                    ## shortcut for other files
 Z="$H/.zsh"                  ## easy access for soucing files inside .zsh
 
+check()
+{
+  if command -v "$1" >/dev/null; then
+    return 0
+  elif [[ "$notifsShow" = "true" ]]; then
+    echo "command \"$1\" not found"
+    return 1
+  fi
+}
+
 ### loads
 
 source "$Z/zi/ldr.zsh"       ## loads zinit
 source "$Z/zi/plgns.zsh"     ## loads plugins
 source "$Z/boot.zsh"         ## loads boot stuff (needed for command history)
 source "$Z/usrthms.zsh"      ## user themes, check the file as it contains the booleans for the themes! "weirdDefault" is enabled by default
-# source "$Z/zi/strship.zsh" ## loads starship
 source "$Z/aliases.zsh"      ## loads aliases
+# source "$Z/zi/strship.zsh" ## loads starship
 
 ##### end of file
