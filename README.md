@@ -38,11 +38,6 @@ ehem, it sends you to your home directory, downloads the installer, makes it exe
 
 you should also read the installer file but considering you're **this** lazy, you probably won't read it...
 
-## okay, sure, but how do i customize this???
-go to your .zsh folder and read the `README.md` file!
-
-i'll update it constantly to tell you "what does what" *(that's a lie)*
-
 ## this is atrocious
 open a issue and tell me what i should improve then!
 
@@ -53,9 +48,14 @@ i'm currently trying to implement booleans in my config! i'm also attempting to 
 
 here's what **some** of them look like:
 
-![](https://github.com/soswav/soswavified-zsh/assets/154848161/4cad895c-2f9b-4ab3-99c5-49ab3aa6055d)
-![](https://github.com/soswav/soswavified-zsh/assets/154848161/21e70784-0c7f-4a60-a3f5-f036ec92906f)
-![](https://github.com/soswav/soswavified-zsh/assets/154848161/7ee3007e-66d7-4da1-befb-eaf4f183b370)
+![](./assets/rainbowBash.png "rainbowBash")
+![](./assets/elvishDefault "elvishDefault")
+![](./assets/weirdDefault "weirdDefault")
+![](./assets/guideToZSH "guideToZSH")
+![](./assets/nixTheme "nixTheme")
+
+>[!NOTE]
+>ignore my screenshot skills
 
 ## notes
 1. feel free to open pull requests to enhance this thing..
