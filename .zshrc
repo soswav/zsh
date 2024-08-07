@@ -8,11 +8,11 @@
   ##         options!"
 
 ## tools
-fetchTool="nitch"            ## to be used inside aliases.zsh and boot.zsh (string)
-  fetchAtBoot="true"         ## shows specified fetch tool at startup (boolean)
-musicTool="termusic"         ## music tool to be used inside aliases.zsh (string)
+fetchTool="neofetch"         ## to be used inside aliases.zsh and boot.zsh (string)
+  fetchAtBoot="false"        ## shows specified fetch tool at startup (boolean)
+musicTool="cmus"             ## music tool to be used inside aliases.zsh (string)
 dirTool="eza"                ## to be used inside aliases.zsh, configure aliases.zsh since it already comes with some options, eza is recommended! (string)
-fileManager="nimmm"          ## terminal filemanager to use (string)
+fileManager="nnn"            ## terminal filemanager to use (string)
 isNix="false"                ## sends message from "boot.zsh" if true (boolean)
 notifsShow="true"            ## notifies you in case you break something (boolean)
 userTheme="weirdDefault"     ## check usrthms.zsh for the previews (and names)
