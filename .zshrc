@@ -20,7 +20,7 @@ Z="$H/.zsh"                  ## easy access for soucing files inside .zsh
 
 ### loads
 
-source "$Z/zi/func.zsh"      ## loads functions
+source "$Z/func.zsh"         ## loads functions
 source "$Z/zi/ldr.zsh"       ## loads zinit
 source "$Z/zi/plgns.zsh"     ## loads plugins
 source "$Z/boot.zsh"         ## loads boot stuff (needed for command history)
