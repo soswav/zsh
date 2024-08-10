@@ -1,8 +1,8 @@
-  ##            _     _     _   _     _                       _   
-  ##    ___ ___| |_  / |___|_| / |___| |___ ___ ___   ___ ___| |_ 
+  ##            _     _     _   _     _                       _
+  ##    ___ ___| |_  / |___|_| / |___| |___ ___ ___   ___ ___| |_
   ##  _|- _|_ -|   |/ /|- _| |/ /| . | | . |   |_ -|_|- _|_ -|   |
   ## |_|___|___|_|_|_/ |___|_|_/ |  _|_|_  |_|_|___|_|___|___|_|_|
-  ##                             |_|   |___|                             
+  ##                             |_|   |___|
   ##                      .zsh/zi/plgns.zsh
   ##                "where you add/remove plugins"
 
@@ -18,5 +18,5 @@ zi light zsh-users/zsh-autosuggestions      ## previously runned commands will h
 ### NOTE: if you want a list of plugins go to "awesome-zsh-plugins" and find one that catches your attention!
 ### ANOTHER NOTE: we use "zi" here as it is a shorthand for "zinit", kindof like an alias!
 ### if you're asking "why?" then take a look at this post: https://reddit.invak.id/r/zsh/comments/sqsni7/zshellzi_vs_zdharmacontinuumzinit/
-### "zini" should also work; use zi if you care about characters inside code so much like me
+### "zini" should also work; use zi if you care about too many chars
 ##### end of file

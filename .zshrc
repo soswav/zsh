@@ -1,7 +1,7 @@
-  ##            _           
-  ##    ___ ___| |_ ___ ___ 
+  ##            _
+  ##    ___ ___| |_ ___ ___
   ##  _|- _|_ -|   |  _|  _|
-  ## |_|___|___|_|_|_| |___|                       
+  ## |_|___|___|_|_|_| |___|
   ##         .zshrc
   ##     "the file where
   ##       you edit the
@@ -10,29 +10,17 @@
 ## tools
 fetchTool="neofetch"         ## to be used inside aliases.zsh and boot.zsh (string)
   fetchAtBoot="false"        ## shows specified fetch tool at startup (boolean)
-musicTool="cmus"             ## music tool to be used inside aliases.zsh (string)
 dirTool="eza"                ## to be used inside aliases.zsh, configure aliases.zsh since it already comes with some options, eza is recommended! (string)
-fileManager="nnn"            ## terminal filemanager to use (string)
-isNix="false"                ## sends message from "boot.zsh" if true (boolean)
 notifsShow="true"            ## notifies you in case you break something (boolean)
-userTheme="weirdDefault"     ## check usrthms.zsh for the previews (and names)
+userTheme="n0tch2k"          ## check usrthms.zsh for the previews (and names)
 
 ## useful stuff
 H="$HOME"                    ## shortcut for other files
 Z="$H/.zsh"                  ## easy access for soucing files inside .zsh
 
-check()
-{
-  if command -v "$1" >/dev/null; then
-    return 0
-  elif [[ "$notifsShow" = "true" ]]; then
-    echo "command \"$1\" not found"
-    return 1
-  fi
-}
-
 ### loads
 
+source "$Z/zi/func.zsh"      ## loads functions
 source "$Z/zi/ldr.zsh"       ## loads zinit
 source "$Z/zi/plgns.zsh"     ## loads plugins
 source "$Z/boot.zsh"         ## loads boot stuff (needed for command history)
