@@ -5,8 +5,7 @@ needs:
 ```diff
 + zsh            (duh)
 + eza            (optional)
-+ a file manager (optional)
-+ a music player (optional)
++ a fetch tool   (optional)
 + a brain        (optional)
 ```
 

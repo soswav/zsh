@@ -12,7 +12,7 @@ fetchTool="neofetch"         ## to be used inside aliases.zsh and boot.zsh (stri
   fetchAtBoot="false"        ## shows specified fetch tool at startup (boolean)
 dirTool="eza"                ## to be used inside aliases.zsh, configure aliases.zsh since it already comes with some options, eza is recommended! (string)
 notifsShow="true"            ## notifies you in case you break something (boolean)
-userTheme="n0tch2k"          ## check usrthms.zsh for the previews (and names)
+userTheme="default"          ## check usrthms.zsh for the previews (and names)
 
 ## useful stuff
 H="$HOME"                    ## shortcut for other files
